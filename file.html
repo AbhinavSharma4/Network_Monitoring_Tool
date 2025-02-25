@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Login Page</title>
+</head>
+<body>
+    <section>
+    <div class="main">
+        <div class="form-values">
+            <form action="data.php" method="POST">
+                    <div class="container1">
+                        <input type="radio"  name="packet" id="arp" value="ARP">
+                        <span class = "field1"><h3>ARP</h3></span>
+                        <div>
+                            <select name="arp-fields" id="arp-fields">
+                                <option value="Select">---Select---</option>
+                                <option value="TimeStamp">Time Stamp</option>
+                                <option value="SourceIP">Source IP</option>
+                                <option value="DestinationIP">Destination IP</option>
+                                <option value="SourceMac">Source MAC</option>
+                                <option value="DestinationMac">Destination MAC</option>
+                                <option value="ProtocolLength">Protocol Length</option>
+                                <option value="All">All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <input type="radio" name="packet" id="udp" value="UDP">
+                        <span class ="field2"><h3>UDP</h3></span>
+                        <div>
+                            <select name="udp-fields" id="udp-fields">
+                                <option value="Select">---Select---</option>
+                                <option value="TimeStamp">Time Stamp</option>
+                                <option value="SourceIP">Source IP</option>
+                                <option value="SourcePort">Source Port</option>
+                                <option value="DestinationIP">Destination IP</option>
+                                <option value="DestinationPort">Destination Port</option>
+                                <option value="SourceMac">Source MAC</option>
+                                <option value="DestinationMac">Destination MAC</option>
+                                <option value="ProtocolLength">Protocol Length</option>
+                                <option value="All">All</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="container3">
+                        <input type="radio" name="packet" id="tcp" value="TCP">
+                        <span class ="field3"><h3>TCP</h3></span>
+                        <div>
+                            <select name="tcp-fields" id="tcp-fields">
+                                <option value="Select">---Select---</option>
+                                <option value="TimeStamp">Time Stamp</option>
+                                <option value="SourceIP">Source IP</option>
+                                <option value="SourcePort">Source Port</option>
+                                <option value="DestinationIP">Destination IP</option>
+                                <option value="DestinationPort">Destination Port</option>
+                                <option value="SourceMac">Source MAC</option>
+                                <option value="DestinationMac">Destination MAC</option>
+                                <option value="ProtocolLength">Protocol Length</option>
+                                <option value="All">All</option>
+                            </select>
+                        </div> 
+                    </div>
+                    <div class="submit-box">
+                        <button type="submit" class="container" name="submit"><h2>Submit</h2></button>
+                    </div>
+                </form>
+            </div>
+    </div>
+    </section>
+</body>
+</html>

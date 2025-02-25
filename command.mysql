@@ -1,0 +1,13 @@
+# SQL Commands
+
+show databases; // This command is use to show the available databases .
+
+create database nmt; // This command is use to create database.
+
+use nmt; // This command is use to use database.
+
+create table login(email varchar(30),password varchar(25)); // this command create a table inside the selected database.
+
+insert into login values( "XYZ@gmail.com" , "xuv@@12" ); // this command is used to insert the values of attribute in created table.
+
+select * from login; // this command is used to display the values of attributes of created table.
